@@ -1,12 +1,13 @@
 html {
     background-color: #FEFAE0;
     font-size: 18px;
+    font-family: sans-serif, serif, monospace;
 }
 
 .title {
     text-align: center;
-    background-color: rgb(166, 179, 125, .5);
-    font-family: sans-serif, serif, monospace;
+    background-color: rgb(166, 179, 125, .8);
+    color: #B99470;
     border-radius: 30px;
 }
 
@@ -49,4 +50,8 @@ div.links {
 .links .list {
     list-style-type: none;
     padding-left: 0px;
+}
+
+.food {
+    margin-left: 10vw;
 }
