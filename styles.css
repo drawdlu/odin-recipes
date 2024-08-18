@@ -58,9 +58,7 @@ div.links {
 }
 
 .food {
-    margin-left: 10vw;
-}
-
-.list.recipes {
-    
+    width: 500px;
+    margin: 0 auto;
+    display: block;
 }
