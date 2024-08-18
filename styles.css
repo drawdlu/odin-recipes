@@ -1,14 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html {
-    background-color: #FEFAE0;
+    background-color: rgb(236, 223, 204);
     font-size: 18px;
     font-family: sans-serif, serif, monospace;
 }
 
 .title {
     text-align: center;
-    background-color: rgb(166, 179, 125, .8);
-    color: #B99470;
+    background-color: rgb(60, 61, 55);
+    color: rgb(236, 223, 204);
     border-radius: 30px;
+    margin: 10px 5px 20px;
 }
 
 a {
@@ -20,18 +27,15 @@ a:hover {
     color: blue;
 }
 
-.list-item {
-    padding-top: .5em;
-}
-
 .list-item.link {
-    margin-top: .5em;
+    margin: 1em 0;
 }
 
 .list-item a {
-    background-color: rgb(185, 148, 112, .8);
+    background-color: rgb(30, 32, 30);
     padding: .3em;
     border-radius: 10px;
+    color: rgb(236, 223, 204);
 }
 
 .list-item a:hover {
@@ -39,12 +43,13 @@ a:hover {
 }
 
 div.links {
-    background-color: rgb(192, 199, 140);
+    background-color: rgb(105, 117, 101);
     border-radius: 10px;
     padding-top: .5em;
     padding-bottom: .5em;
-    width: 50vw;
+    max-width: 500px;
     text-align: center;
+    margin: 0 auto;
 }
 
 .links .list {
@@ -54,4 +59,8 @@ div.links {
 
 .food {
     margin-left: 10vw;
+}
+
+.list.recipes {
+    
 }
